@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_background">#FDFFF6</color>
+    <color name="color_mantis">#72CC50</color>
+    <color name="color_mantis_medium">#8EC53F</color>
+    <color name="color_gray">#E1E1E1</color>
+    <color name="color_aquamarine">#019875</color>
+    <color name="color_fuego">#BFD834</color>
+    <color name="color_green">#178542</color>
+    <color name="color_navbar_inactive">#999999</color>
+    <color name="color_white_background">#F5F5F5</color>
+
+    <!--    landing page-->
+    <color name="color_title">#333333</color>
+    <color name="color_gray400">#666666</color>
+    <color name="color_gray300">#9E9E9E</color>
+    <color name="color_gray200">#999999</color>
+    <color name="color_gray100">#E0E0E0</color>
+    <color name="color_black100">#333333</color>
+
+    <color name="color_edittex">#DEDEDE</color>
+    <color name="color_edittext_focused">#C1C0C0</color>
+    <color name="color_mantis_light">#BBFF5A</color>
+    <color name="color_campaign_background">#E5E5E5</color>
+    <color name="color_gray_background">#E5E5E5</color>
+
+    <color name="basic_gray">#666666</color>
+    <color name="terkumpul">#999999</color>
+    <color name="edit_text_color">#F2F3F5</color>
+    <color name="fade_text">#5A5A5A</color>
+    <color name="red">#F46264</color>
+    <color name="disabled_btn">#E1E1E1</color>
+
+
+    <color name="color_campaign_label">#FFECEC</color>
+
+<!--    donasi sya-->
+    <color name="color_bg_berhasil">#E3FFA8</color>
+    <color name="color_bg_menunggu">#FFF6A8</color>
+    <color name="color_orange">#F29200</color>
+</resources>

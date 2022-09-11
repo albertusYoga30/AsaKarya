@@ -1,0 +1,237 @@
+<resources>
+    <string name="app_name">AsaKarya</string>
+
+    <!-- on boarding -->
+    <string name="text_title_onBoarding1">Tau gak sih?</string>
+    <string name="text_desc_onBoarding1">Indonesia itu punya segudang pelaku industri kreatif yang hebat loh</string>
+    <string name="text_title_onBoarding2">Sayangnya...</string>
+    <string name="text_desc_onBoarding2">Banyak dari mereka yang gagal mengembangkan karyanya karena keterbatasan dana</string>
+    <string name="text_title_onBoarding3">melalui Asakarya</string>
+    <string name="text_desc_onBoarding3">Kami hadir sebagai wadah kemajuan industri kreatif di Indonesia</string>
+
+    <string name="text_button_onBoarding1">Ayo dukung</string>
+    <string name="text_button_onBoarding2">Mau menggalang dana?</string>
+    <string name="text_button_masuk">Masuk</string>
+    <string name="text_button_daftar">Daftar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- galang dana -->
+    <string name="text_galangDana">Galang Dana</string>
+    <string name="text_title_galangDana">Selamat Datang RekanAsa</string>
+    <string name="text_desc_galangDana">Hanya dengan satu langkah, Asakarya membantu kamu mengembangkan karya</string>
+    <string name="text_button_galangDanaWeb">Buka galang dana di web</string>
+    <string name="text_button_tanyaGalangDana">Tanya tentang galang dana</string>
+    <string name="text_syaratDanKetentuan">Lihat S&amp;K pengalangan dana <u>disini</u></string>
+
+    <!--    landing page-->
+    <string name="text_welcome">Selamat Datang</string>
+    <string name="text_landing">Siap memberi harapan untuk kemajuan\nIndustri Kreatif Indonesia</string>
+    <string name="button_masuk">Masuk</string>
+    <string name="button_daftar">Daftar</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password"><u>Lupa Password?</u></string>
+    <string name="user_name_text">Nama</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="lgin_btn">Masuk</string>
+
+    <!--    login-->
+    <string name="email_hint">Masukkan alamat email anda</string>
+    <string name="password_hint">Masukkan Password anda</string>
+    <string name="text_daftar">Belum Punya akun?h Daftar</string>
+    <string name="daftar_baru">Belum Punya akun? Daftar</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Password</string>
+    <string name="btn_masuk">Masuk</string>
+
+    <!--    Register-->
+    <string name="daftar">Daftar</string>
+    <string name="text_name">Nama</string>
+    <string name="name_hint">Masukan Nama Anda</string>
+    <string name="phone_hint">Masukan Nomor Telepon Anda</string>
+    <string name="login_akun">Sudah Punya Akun? <u>Masuk</u></string>
+
+    <string name="text_loading">Please Wait, Loading...</string>
+    <string name="title_activity_home_navigation">HomeNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- home navigation -->
+    <string name="title_Campaign">Campaign</string>
+    <string name="title_DonasiSaya">Donasi Saya</string>
+    <string name="title_GaleriKarya">Galeri Karya</string>
+    <string name="title_Akun">Akun</string>
+
+    <!-- fragment campaign  -->
+    <string name="title_username">Hallo,</string>
+    <string name="title_search_view">Pencarian</string>
+    <string name="title_recyclerview_campaign">Mulai berbagi harapan</string>
+    <string name="title_view_more">Lihat lainnya</string>
+    <string name="title_penggalangan_dana_cepat">Penggalangan dana cepat</string>
+
+    <!-- campaign  -->
+    <string name="title_campaign">Campaign</string>
+    <string name="campaign_label">Lainnya</string>
+    <string name="default_amount">0</string>
+    <string name="estimate_day">-</string>
+    <string name="default_date">-</string>
+    <string name="day_left">hari lagi</string>
+    <string name="per">/</string>
+
+    <!-- donasi -->
+    <string name="title_faq">FAQ</string>
+    <string name="faq">Apa dana akan disalurkan ?</string>
+    <string name="faq_desc">iya dana akan disalurkan ke pelaku industri kreatif</string>
+
+    <string name="estimate_limit">1.000.000.000</string>
+    <string name="donatur_amount">99999</string>
+    <string name="btn_donasi">Donasi Sekarang</string>
+    <string name="title_info_detail">Informasi detail</string>
+    <string name="info_detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi mi egestas ultrices eget non quisque. Libero pellentesque magna in aliquam. Et urna erat nibh risus, risus non quisque commodo, lacus. Egestas ipsum, sit massa sem ipsum curabitur id. Sit ut vestibulum pellentesque amet dui. Quisque blandit duis tellus massa aliquam</string>
+    <string name="text_view_more">Baca Selengkapnya</string>
+    <string name="text_view_more_extend">Lihat lainnya</string>
+    <string name="text_view_less">Tampilkan lebih sedikit</string>
+    <string name="title_kabar_terbaru">Kabar terbaru</string>
+    <string name="date_info">22 Oktober 2021</string>
+    <string name="news_info">Buku sudah dicetak</string>
+    <string name="text_pesan_rekanasa">Pesan Rekan Asa</string>
+    <string name="text_informasi_donasi">Informasi Donasi</string>
+
+    <string name="text_paket">Paket</string>
+    <string name="paket_a">Paket A</string>
+    <string name="paket_b">Paket B</string>
+    <string name="paket_c">Paket C</string>
+    <string name="paket_a_value">Rp 100.000 - 24.9999</string>
+    <string name="paket_b_value">Rp 250.000 - 499.999</string>
+    <string name="paket_c_value">Rp 500.000+</string>
+
+    <string name="text_jumlah_donasi">Jumlah donasi : </string>
+    <string name="text_akan_mendapatkan">Akan mendapatkan :</string>
+    <string name="reward">Reward</string>
+    <string name="text_news_title">Kabar terbaru</string>
+
+    <string name="default_reward1">Donasi Sesuai Keinginanmu</string>
+    <string name="default_reward2">Terima kasih!</string>
+    <string name="default_reward3">Sudah mendukung kami</string>
+    <string name="default_reward4">sebagai Pelaku Industri Kreatif</string>
+
+    <string name="akan_mendapat">Akan Mendapatkan: </string>
+    <string name="jumlah_donasi">Jumlah donasi : </string>
+    <string name="value_reward">10000</string>
+
+    <string name="page_5_title_start">Mereka Juga </string>
+    <string name="butuh_colored"> Butuh </string>
+    <string name="page_5_title_end"> Dukunganmu </string>
+    <string name="text_other_campaign">Karya Lainnya</string>
+
+
+    <string name="author_name">Anonymous</string>
+    <string name="author_role">Innovator</string>
+    <string name="text_terkumpul">Terkumpul</string>
+    <string name="text_sisa_hari">Sisa hari</string>
+
+
+    <!--    donasi pembayaran-->
+    <string name="nominal_text">Nominal Donasi</string>
+    <string name="currency_rupiah">Rp</string>
+    <string name="minimum_donasi">*Nominal donasi minimal Rp 10.000</string>
+    <string name="dukungan_text">Beri Dukungan di donasi ini (Opsional)</string>
+    <string name="edittext_pembayaran">Tulis pesan dukungan kamu untuk karya ini</string>
+    <string name="alamat_pengiriman">Alamat Pengiriman</string>
+    <string name="current_nominal">0</string>
+    <string name="alamat">Hisyam | hisyam@mail.com | (+62) 811-2222-3333 Jalan Pejuang No.99, RT.20/RW.20, Halu, Fiksi Kab. Fiktif - Fiksi, Medan, ID 12345</string>
+    <string name="text_total_pembayaran">Total Pembayaran</string>
+    <string name="total_pembayaran">Rp. 0</string>
+    <string name="btn_pembayaran">Bayar</string>
+
+    <!-- messages  -->
+    <string name="title_messages">Pesan Rekan Asa</string>
+    <string name="empty_messages">Belum ada pesan yang di sampaikan</string>
+    <string name="empty_news">Belum ada update terbaru untuk karya ini</string>
+
+
+    <!--Pembayaran-->
+    <string name="text_header_pembayaran">Pembayaran</string>
+    <string name="text_batas_akhir">Batas Akhir Pembayaran</string>
+    <string name="date_text_limit">Kamis, 26 Desember 2021 15:00</string>
+    <string name="hour_limit">23:59:59</string>
+    <string name="comp_name">PT. Asakarya Membangun Negeri</string>
+    <string name="nomor_rekening_text">No Rekening</string>
+    <string name="salin_text">salin</string>
+    <string name="detail_text">Lihat Detail</string>
+    <string name="pembayaran_page_4_title">Cara Pembayaran</string>
+    <string name="table_content_row_1">Masuk ke akun rekening anda melalui ATM/M-Bangking lalu pilih menu transfer</string>
+    <string name="table_content_row_2">Masukan nomor rekening dan nominal pembayaran yang sudah diinput sebelumnya</string>
+    <string name="table_content_row_3">foto/screenshot bukti pembayaran yang sudah dilakukan</string>
+    <string name="table_content_row_4">Upload Bukti Pembayaran, status pembayaran akan berubah max. 2x24 jam</string>
+    <string name="btn_text_pembayaran">Konfirmasi pembayaran</string>
+    <string name="no_rekening">128 0295 2039 2340</string>
+
+    <!-- Pembayaran behasil -->
+    <string name="header_terimakasih">Terima kasih</string>
+    <string name="text_terimakasih">Terima kasih!</string>
+    <string name="text_terimakasih_desc">Kamu sudah berkontribusi untuk mendukung kemajuan industri kreatif di Indonesia</string>
+    <string name="btn_ok">Ok</string>
+
+    <!--fragment akun-->
+    <string name="header_text_akun">Akun</string>
+    <string name="user_profile_name_akun">Hisyam N.</string>
+    <string name="user_tag_role_akun">Investor</string>
+    <string name="menu_1_akun">Ubah profil</string>
+    <string name="menu_2_akun">Alamat</string>
+    <string name="menu_3_akun">Ubah Password</string>
+    <string name="menu_4_akun">Tentang Kami</string>
+    <string name="menu_5_akun">Website Kami</string>
+    <string name="btn_text_akun">Keluar</string>
+
+    <!-- fragment donasi -->
+    <string name="text_donasi">Donasi</string>
+    <string name="text_filter">Filter</string>
+    <!--alamat-->
+    <string name="username">Hisyam</string>
+    <string name="alamat_tag">[utama]</string>
+    <string name="alamat_short">hisyam@mail.com\n(+62) 811-2222-3333\nJalan Pejuang No.99, RT.20/RW.20, Halu, Fiksi Kab. Fik...</string>
+    <string name="clickable_ubah_alamat">Ubah Alamat</string>
+    <string name="tambah_alamat_text">Tambah alamat baru</string>
+    <!--tambah alamat-->
+    <string name="nama_penerima_text">Nama Penerima</string>
+    <string name="et_nama_text">Masukan Nama Penerima</string>
+    <string name="nomor_telpon_text">Nomor telepon</string>
+    <string name="et_telp_text">Masukan nomot telepon anda</string>
+    <string name="alamat_lengkap_text">Alamat lengkap</string>
+    <string name="et_alamat_text">Cth: Jalan Juang No.76, Kec. Kemang, Kota Bogor, Jawa Barat</string>
+    <string name="kode_pos_text">Kode Pos</string>
+    <string name="et_kode_pos_text">Masukan kode pos alamat anda</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_batal">Batalkan</string>
+    <!--ubah password-->
+    <string name="password_lama_text">Password Lama</string>
+    <string name="password_baru_text">Password Baru</string>
+    <string name="konfirmasi_text">Konfirmasi Password Baru</string>
+    <string name="et_pass_baru">Masukan password baru Anda</string>
+    <string name="et_konfirmasi">Konfirmasi Password Anda</string>
+    <!--ubah profil-->
+    <string name="pilih_foto"><u>Pilih Gambar</u></string>
+    <string name="ket_foto">Format file jpg, jpeg, png (Maks 2MB)</string>
+
+    <!-- searching page  -->
+    <string name="text_rekomendasi">Rekomendasi untuk anda</string>
+    <!--Tentang Kami-->
+    <string name="text_par_1">Asakarya didirikan pada tahun 2021 di\nIndonesia.\nBerisi orang-orang yang berasal dari\nberbagailatar belakang\nnamun memiliki satu Visi &amp; Misi yang\nsama untuk membangun AsaKarya</string>
+    <string name="text_title_par_2">Latar Belakang</string>
+    <string name="text_par_2">Indonesia memiliki segudang pelaku\nindustri kreatif yang hebat, namun\nsayangnya banyak dari mereka gagal\nmengembangkan karyanya karena\nketerbatasan dana. Melalui AsaKarya,\nkami hadir sebagai wadah kemajuan\nIndustri Kreatif di Indonesia.\n\nBersama AsaKarya, kita dukung karya\nanak bangsa!</string>
+    <string name="text_baca_selengkapnya">Baca Selengkapnya</string>
+
+    <string name="estimate_money">Rp234.014.513</string>
+
+    <!--fragment galeri karya -->
+    <string name="title_galeri_karya">Galery karya</string>
+
+
+    <!--    donasi saya-->
+    <string name="text_empty">Belum ada donasi yang dilakukan</string>
+    <string name="text_berhasil">Berhasil</string>
+    <string name="text_menunggu">Menunggu</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_campaign">
+
+    <fragment
+        android:id="@+id/navigation_campaign"
+        android:name="app.binar.synergy.android.asakarya.ui.homeNavigation.ui.campaign.CampaignFragment"
+        android:label="@string/title_Campaign"
+        tools:layout="@layout/fragment_campaign" />
+
+    <fragment
+        android:id="@+id/navigation_donasiSaya"
+        android:name="app.binar.synergy.android.asakarya.ui.homeNavigation.ui.donasiSaya.DonasiSayaFragment"
+        android:label="@string/title_DonasiSaya"
+        tools:layout="@layout/fragment_donasi_saya" />
+
+    <fragment
+        android:id="@+id/navigation_galeriKarya"
+        android:name="app.binar.synergy.android.asakarya.ui.homeNavigation.ui.galeryKarya.GaleriKaryaFragment"
+        android:label="@string/title_GaleriKarya"
+        tools:layout="@layout/fragment_galeri_karya" />
+    <fragment
+        android:id="@+id/navigation_akun"
+        android:name="app.binar.synergy.android.asakarya.ui.homeNavigation.ui.akun.AkunFragment"
+        android:label="@string/title_Akun"
+        tools:layout="@layout/fragment_akun" />
+
+</navigation>

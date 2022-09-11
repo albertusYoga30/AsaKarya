@@ -1,0 +1,31 @@
+image: jangrewe/gitlab-ci-android
+
+before_script:
+    - export GRADLE_USER_HOME=$(pwd)/.gradle
+    - chmod +x ./gradlew
+
+cache:
+    key: ${CI_PROJECT_ID}
+    paths:
+    - .gradle/wrapper
+    - .gradle/caches
+
+stages:
+    - build
+
+build-app-debug:
+    stage: build
+    only:
+        - feature/donasi_saya
+    script:
+        - export BUILD_NUMBER=$CI_JOB_ID
+        - ./gradlew clean assembleDebug
+        - export TELEGRAM_CHAT_ID=-485841655
+        - export TELEGRAM_TOKEN=2106827757:AAFnT6ed4uCFamLNcy8l3JoVpDqOz8efj00
+        - curl -d chat_id=${TELEGRAM_CHAT_ID} -d text="[Android CI] Build from $CI_COMMIT_REF_NAME branch Done | ${CI_COMMIT_SHA:0:8} - $CI_COMMIT_TITLE | Hai guys, APK terbaru sudah bisa dicoba, silahkan dicoba semuanya :)" https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage
+        - cd app/build/outputs/apk/debug/
+        - export FILENAME=$(ls)
+        - curl -F document=@${FILENAME} https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendDocument?chat_id=${TELEGRAM_CHAT_ID}
+    artifacts:
+        paths:
+        - app/build/outputs/apk/debug/**.apk

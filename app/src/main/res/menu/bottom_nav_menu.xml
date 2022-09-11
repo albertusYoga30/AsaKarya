@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_campaign"
+        android:icon="@drawable/ic_campaign_24dp"
+        android:title="@string/title_Campaign" />
+
+    <item
+        android:id="@+id/navigation_donasiSaya"
+        android:icon="@drawable/ic_donasi_saya_24dp"
+        android:title="@string/title_DonasiSaya" />
+
+    <item
+        android:id="@+id/navigation_galeriKarya"
+        android:icon="@drawable/ic_galeri_karya_24dp"
+        android:title="@string/title_GaleriKarya" />
+    <item
+        android:id="@+id/navigation_akun"
+        android:icon="@drawable/ic_akun_24dp"
+        android:title="@string/title_Akun" />
+
+</menu>

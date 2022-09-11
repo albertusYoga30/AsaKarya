@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_gray_background"
+    tools:context=".ui.payment.PembayaranActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/color_mantis"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/icon_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_galang_dana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:fontFamily="@font/poppins500"
+            android:gravity="center"
+            android:text="@string/text_donasi"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/icon_back"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_pembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_header">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/page_2_pembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                app:layout_constraintTop_toTopOf="parent"
+                android:paddingBottom="18dp">
+
+                <ImageView
+                    android:id="@+id/Qr_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="81dp"
+                    android:layout_marginTop="27dp"
+                    android:src="@drawable/barcode"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/Qr_code_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="166dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/qris"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/Qr_code" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/page_3_pembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="368dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/color_background"
+                app:layout_constraintTop_toBottomOf="@id/page_2_pembayaran">
+
+                <ImageView
+                    android:id="@+id/bank_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/ic_bank"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/pt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/poppins400"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:text="@string/comp_name"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/sekat_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@color/color_gray200"
+                    app:layout_constraintTop_toBottomOf="@id/bank_logo" />
+
+                <TextView
+                    android:id="@+id/no_rekening_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins400"
+                    android:textSize="12sp"
+                    android:textColor="@color/color_gray400"
+                    android:text="@string/nomor_rekening_text"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sekat_1" />
+
+                <TextView
+                    android:id="@+id/nominal_rekening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/poppins600"
+                    android:text="@string/no_rekening"
+                    android:textColor="@color/color_green"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/no_rekening_text" />
+
+                <TextView
+                    android:id="@+id/copy_command"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginRight="24dp"
+                    android:fontFamily="@font/poppins600"
+                    android:text="@string/salin_text"
+                    android:textColor="@color/color_mantis"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sekat_1" />
+
+                <TextView
+                    android:id="@+id/nominal_pembayaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="28dp"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppins400"
+                    android:text="@string/nominal_text"
+                    android:textColor="@color/basic_gray"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/nominal_rekening" />
+
+                <TextView
+                    android:id="@+id/nominal_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/poppins600"
+                    android:text="@string/total_pembayaran"
+                    android:textColor="@color/color_green"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/nominal_pembayaran" />
+
+                <TextView
+                    android:id="@+id/detail_txt_clickable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:layout_marginRight="24dp"
+                    android:fontFamily="@font/poppins600"
+                    android:text="@string/detail_text"
+                    android:textColor="@color/color_mantis"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/copy_command" />
+
+                <View
+                    android:id="@+id/sekat_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginHorizontal="24dp"
+                    android:background="@color/color_gray200"
+                    app:layout_constraintTop_toBottomOf="@id/nominal_money" />
+
+                <ImageView
+                    android:id="@+id/drag_drop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="24dp"
+                    android:layout_marginTop="26dp"
+                    android:src="@drawable/upload_nota_pembayaran"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/sekat_2" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/page_4_pembayaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="50dp"
+                android:background="@color/color_background"
+                app:layout_constraintTop_toBottomOf="@id/page_3_pembayaran">
+
+                <TextView
+                    android:id="@+id/title_page_4_pembayaran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/poppins600"
+                    android:text="@string/pembayaran_page_4_title"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TableLayout
+                    android:id="@+id/cara_pembayaran"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/title_page_4_pembayaran">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:fontFamily="@font/poppins500"
+                            android:text="1. "
+                            android:textSize="14sp"
+                            android:textColor="@color/basic_gray"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:fontFamily="@font/poppins500"
+                            android:maxWidth="363dp"
+                            android:textSize="14sp"
+                            android:text="@string/table_content_row_1"
+                            android:textColor="@color/basic_gray" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:fontFamily="@font/poppins500"
+                            android:text="2. "
+                            android:textSize="14sp"
+                            android:textColor="@color/basic_gray"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:fontFamily="@font/poppins500"
+                            android:maxWidth="363dp"
+                            android:textSize="14sp"
+                            android:text="@string/table_content_row_2"
+                            android:textColor="@color/basic_gray" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:fontFamily="@font/poppins500"
+                            android:text="3. "
+                            android:textSize="14sp"
+                            android:textColor="@color/basic_gray"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:fontFamily="@font/poppins500"
+                            android:maxWidth="363dp"
+                            android:textSize="14sp"
+                            android:text="@string/table_content_row_3"
+                            android:textColor="@color/basic_gray" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_column="1"
+                            android:fontFamily="@font/poppins500"
+                            android:text="4. "
+                            android:textSize="14sp"
+                            android:textColor="@color/basic_gray"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_column="2"
+                            android:fontFamily="@font/poppins500"
+                            android:maxWidth="363dp"
+                            android:textSize="14sp"
+                            android:text="@string/table_content_row_4"
+                            android:textColor="@color/basic_gray" />
+                    </TableRow>
+                </TableLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/button_page"
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/color_background"
+                app:layout_constraintTop_toBottomOf="@id/page_4_pembayaran">
+
+                <Button
+                    android:id="@+id/btn_pembayaran"
+                    android:layout_width="363dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/shape_button"
+                    android:backgroundTint="@color/disabled_btn"
+                    android:backgroundTintMode="src_over"
+                    android:text="@string/btn_text_pembayaran"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins600"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
